@@ -1,0 +1,160 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+.transition {
+  transition: opacity 1s ease-in;
+}
+.hidden {
+  opacity: 0 !important;
+}
+a {
+  text-underline-offset: 0.3rem;
+  margin-right: 2rem;
+
+  color: #000;
+  text-decoration: none;
+}
+a:last-of-type {
+  margin-right: 0;
+}
+.header--top a {
+  color: black;
+}
+nav a {
+  color: gray;
+  font-size: 1.6rem;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.4rem;
+}
+p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+textarea {
+  resize: none;
+}
+.flex {
+  flex: 1;
+}
+.footer {
+  margin-top: auto;
+  padding: 1em 0;
+}
+.header a,
+.footer a {
+  text-transform: uppercase;
+}
+#cartCounter {
+  font-size: 1rem;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 5px;
+  border-radius: 100%;
+  top: 4rem;
+  margin-left: -1rem;
+}
+.header {
+  height: 12rem;
+}
+.wrap {
+  padding: 0 10rem;
+}
+.page-width {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.header--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo, .logo2 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: black;
+}
+.logo2 {
+  width: 20rem;
+}
+.underline {
+  text-decoration: underline !important;
+}
+.btn {
+  border-radius: 0;
+}
+.ProductBTN:hover, .emptyBTN:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
+.credit--card, .card {
+  border: none;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.fade {
+  top: -100px;
+  position: absolute;
+  transition: 1s;
+}
+.items__container {
+  padding-top: 10rem;
+}
+.img__container {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+}
+.card__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.faqimg {
+  object-fit: cover;
+  height: 20rem;
+  overflow: hidden;
+}

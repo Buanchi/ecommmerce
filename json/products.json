@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Adidas Legend Sport hoodie",
+        "price": 22,
+        "img": "adidas.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Adidas Sq21 Sw Top",
+        "price": 10,
+        "img": "adidasSq21SwTop.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pullover EcoSmart Hooded",
+        "price": 10,
+        "img": "pullover.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Champion Powerblend",
+        "price": 12,
+        "img": "champion.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Vans Hats Milford Beanie Hat",
+        "price": 5,
+        "img": "VansHatsMilfordBeanie.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lavnis Aviator Bomber Jacket",
+        "price": 13,
+        "img": "lavnis.jpg"
+    },
+    {
+        "id": 7,
+        "name": "ComfortBlend EcoSmart",
+        "price": 22,
+        "img": "hanes.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Adidas Regista 18",
+        "price": 15,
+        "img": "adidasRegista.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Joma Camiseta Combi",
+        "price": 5,
+        "img": "JomaCamisetaCombi.jpg"
+    },
+    {
+        "id": 10,
+        "name": "G-STAR RAW Dorala",
+        "price": 12,
+        "img": "G-STARRAWDorala.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Adidas Pant",
+        "price": 15,
+        "img": "adidasPant.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Vans Drop V Check-b",
+        "price": 13,
+        "img": "VansDropVCheck-b.jpg"
+    }
+] 
